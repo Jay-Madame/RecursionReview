@@ -50,7 +50,6 @@ cout << "# of b's = " << b_counter(myString2,7,0) << endl;<br>
 <br>
 ***
 
-
 __Problem Five__
 <br>
 [ ] Write a recursive function that calculates the length of a null terminated string stored in a character array.
