@@ -47,8 +47,8 @@ char myString2[] = {"bHellbo"};<br>
 cout << "# of b's = " << b_counter(myString2,7,0) << endl;<br>
 (Hint, i is index of the current character. Increment each time. Stop when i is equal to the length.)<br>
 
-<br>
 ***
+
 
 __Problem Five__
 <br>
