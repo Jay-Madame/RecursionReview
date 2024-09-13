@@ -11,7 +11,7 @@ int factorial(int n);<br>
 
 __Problem Two__
 <br>
-[ ] Without looking at previous implementations, write a function that finds the power of number to an exponent using recursion.<br> <br>
+[x] Without looking at previous implementations, write a function that finds the power of number to an exponent using recursion.<br> <br>
 
 <i> example </i> <br>
 int power(int base, int exponent);<br>
