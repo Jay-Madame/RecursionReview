@@ -22,7 +22,7 @@ std::cout << "2^3 = " << power(2,3) << std::endl;<br>
 ***
 __Problem Three__
 <br>
-[ ] Write a recursive function that returns sum of the digits in an input integer.<br> <br>
+[x] Write a recursive function that returns sum of the digits in an input integer.<br> <br>
 
 <i> example </i> <br>
 int sum_digits(unsigned n);<br>
