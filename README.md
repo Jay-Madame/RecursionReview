@@ -2,7 +2,7 @@
 
 __Problem One__
 <br>
-[ ] Without looking at previous implementations, implement a C++ function that finds the factorial given an integer value using recursion. <br> <br>
+[x] Without looking at previous implementations, implement a C++ function that finds the factorial given an integer value using recursion. <br> <br>
 
 <i> example </i> <br>
 int factorial(int n);<br>
