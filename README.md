@@ -36,7 +36,7 @@ cout << "Sum of digits in " << n << " is " << sum_digits(n) << endl;
 
 __Problem Four__
 <br>
-[ ] Write a recursive function that returns the number of ”b” characters in a character array. (Length is the
+[x] Write a recursive function that returns the number of ”b” characters in a character array. (Length is the
 number of characters in the array)<br><br>
 
 <i> example </i> <br>
@@ -52,7 +52,7 @@ cout << "# of b's = " << b_counter(myString2,7,0) << endl;<br>
 
 __Problem Five__
 <br>
-[ ] Write a recursive function that calculates the length of a null terminated string stored in a character array.
+[x] Write a recursive function that calculates the length of a null terminated string stored in a character array.
 (Don’t count the null terminator)<br> <br>
 
 <i> example </i> <br>

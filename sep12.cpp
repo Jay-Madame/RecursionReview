@@ -67,10 +67,22 @@ int b_counter(char data[], int length, int i)
     }
 }
 
+// problem 5
+int string_length(char* data){
+    if (*data == '\0')
+    {
+        return 0;
+    }
+    else 
+    {
+        return 1 + string_length(data+1);
+    }
+}
 void testOne(int num);
 void testTwo(int num, int num2);
 void testThree(unsigned n);
 void testFour(char data[], int length, int i);
+void testFive(char data[]);
 
 int main()
 {
@@ -79,12 +91,14 @@ int main()
     // vars to be used
     int num = rand() % 10 + 1;
     int num2 = rand() % 10 + 1;
+    char myString[] = {"Hello"};
     char myString2[] = {"bHellbo"};
 
     // testOne(num);
     // testTwo(num, num2);
     // testThree(123456);
-    testFour(myString2, 7, 0);
+    // testFour(myString2, 7, 0);
+    testFive(myString);
 
     return 0;
 }
@@ -108,4 +122,9 @@ void testThree(unsigned n)
 void testFour(char data[], int length, int i)
 {
     std::cout << "# of b's = " << b_counter(data, length, i) << std::endl;
+}
+
+void testFive(char data[])
+{
+    std::cout << "string_length: " << string_length(data) << std::endl;
 }
